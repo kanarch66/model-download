@@ -9,3 +9,6 @@ git clone https://huggingface.co/openai/clip-vit-large-patch14 models/clip
 
 # Clone LLaVA-LLama model into the llm folder
 git clone https://huggingface.co/Kijai/llava-llama-3-8b-text-encoder-tokenizer models/llm
+
+pip3 install sageattention -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir
+pip3 install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir
