@@ -1,5 +1,3 @@
-# Create necessary directories
-mkdir -p models/{hunyuan,clip,llm}
 # Download HunyuanVideo models into the hunyuan folder
 wget -P workspace/ComfyUI/models/diffusion_models https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hunyuan_video_720_cfgdistill_fp8_e4m3fn.safetensors
 wget -P workspace/ComfyUI/models/vae https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hunyuan_video_vae_bf16.safetensors
